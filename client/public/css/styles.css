@@ -1,0 +1,67 @@
+.top-bar, .top-bar ul {
+  background-color: #fefefe;
+}
+
+.hero-section {
+  background: url("../img/pexels-1.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 90vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  padding: 0 2rem;
+}
+
+.hero-section .hero-section-text .call-to-action {
+  margin-top: 1rem;
+}
+
+
+.translucent-form-overlay {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(54, 54, 54, 0.8);
+  padding: 20px;
+  color: #fefefe;
+}
+
+.translucent-form-overlay .columns.row {
+  display: block;
+}
+
+.translucent-form-overlay .form-title, .translucent-form-overlay label {
+  color: #fefefe;
+  text-align: left;
+}
+
+.translucent-form-overlay label {
+  font-size: 1.125rem;
+}
+
+.translucent-form-overlay input, .translucent-form-overlay select {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::-webkit-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input:-ms-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::placeholder {
+  color: #8a8a8a;
+}

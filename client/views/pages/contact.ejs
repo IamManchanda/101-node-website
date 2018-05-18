@@ -1,0 +1,26 @@
+<%- contentFor('hero')  %>
+<section class="hero-section">
+  <div class="translucent-form-overlay">
+    <form action="/contact" method="POST">
+      <h3 class="form-title">Contact us</h3>
+      <div class="row columns">
+        <label>Name
+          <input type="text" name="name" placeholder="Enter Name" />
+        </label>
+      </div>
+      <div class="row columns">
+        <label>Email
+          <input type="text" name="email" placeholder="Enter Name" />
+        </label>
+      </div>
+      <div class="row columns">
+        <label>Your Message
+          <textarea rows="3" type="text" name="message" placeholder="Enter Name"></textarea>
+        </label>
+      </div>
+      <button type="submit" class="primary button expanded search-button">
+        Search
+      </button>
+   </form>
+  </div>
+</section>
